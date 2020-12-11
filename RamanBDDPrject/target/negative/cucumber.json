@@ -1,0 +1,446 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6059411983,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "validate dealer search page",
+        "description": "",
+        "id": "validating-dealer-search-functionality;validate-dealer-search-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 961229639,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.Teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9905620006,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Iam on the home page \"https://www.carsguide.com.au/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.carsguide.com.au/",
+                  "offset": 22
+                }
+              ],
+              "location": "SearchCarsStep.iam_on_the_home_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 977553852,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I move to menu",
+            "match": {
+              "location": "SearchCarsStep.i_move_to_menu(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "menu"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "buy+sell"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "reviews"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6368547999,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on finddealer \"Find a Dealer\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find a Dealer",
+                  "offset": 23
+                }
+              ],
+              "location": "Dealer_SearchStep.i_click_on_finddealer_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 679932276,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select brand \"AUDI\" from Any make dropdown of dealer page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AUDI",
+                  "offset": 14
+                }
+              ],
+              "location": "Dealer_SearchStep.select_brand_from_Any_make_dropdown_of_dealer_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 877949122,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select model \"Q7\" from Any model dropdown of dealer page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Q7",
+                  "offset": 14
+                }
+              ],
+              "location": "Dealer_SearchStep.select_model_from_Any_model_dropdown_of_dealer_page(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 423463863,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "select location \"ACT - All\" from Any location dropdown of dealer page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ACT - All",
+                  "offset": 17
+                }
+              ],
+              "location": "Dealer_SearchStep.select_location_from_Any_location_dropdown_of_dealer_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8750697415,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on find dealers",
+            "match": {
+              "location": "Dealer_SearchStep.i_click_on_find_dealers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79427,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the dealers",
+            "match": {
+              "location": "Dealer_SearchStep.i_should_see_the_dealers()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246390948,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the dealer page title should match the expected title \"AUDI Q7 Dealers ACT | carsguide\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AUDI Q7 Dealers ACT | carsguide",
+                  "offset": 55
+                }
+              ],
+              "location": "Dealer_SearchStep.the_dealer_page_title_should_match_the_expected_title(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Dealersearch"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3733784795,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "validate dealer search page",
+        "description": "",
+        "id": "validating-dealer-search-functionality;validate-dealer-search-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 822139706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.Teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10147729207,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Iam on the home page \"https://www.carsguide.com.au/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.carsguide.com.au/",
+                  "offset": 22
+                }
+              ],
+              "location": "SearchCarsStep.iam_on_the_home_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1046090990,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I move to menu",
+            "match": {
+              "location": "SearchCarsStep.i_move_to_menu(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "menu"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "buy+sell"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "reviews"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4974109732,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on finddealer \"Find a Dealer\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find a Dealer",
+                  "offset": 23
+                }
+              ],
+              "location": "Dealer_SearchStep.i_click_on_finddealer_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 728465233,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select brand \"BMW\" from Any make dropdown of dealer page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BMW",
+                  "offset": 14
+                }
+              ],
+              "location": "Dealer_SearchStep.select_brand_from_Any_make_dropdown_of_dealer_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1156042265,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select model \"3 SERIES\" from Any model dropdown of dealer page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3 SERIES",
+                  "offset": 14
+                }
+              ],
+              "location": "Dealer_SearchStep.select_model_from_Any_model_dropdown_of_dealer_page(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 493321674,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "select location \"ACT - All\" from Any location dropdown of dealer page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ACT - All",
+                  "offset": 17
+                }
+              ],
+              "location": "Dealer_SearchStep.select_location_from_Any_location_dropdown_of_dealer_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3647012341,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on find dealers",
+            "match": {
+              "location": "Dealer_SearchStep.i_click_on_find_dealers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75780,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the dealers",
+            "match": {
+              "location": "Dealer_SearchStep.i_should_see_the_dealers()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 174668231,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the dealer page title should match the expected title \"BMW 3 SERIES Dealers ACT | carsguide\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BMW 3 SERIES Dealers ACT | carsguide",
+                  "offset": 55
+                }
+              ],
+              "location": "Dealer_SearchStep.the_dealer_page_title_should_match_the_expected_title(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Dealersearch"
+          }
+        ]
+      }
+    ],
+    "name": "Validating dealer search functionality",
+    "description": "",
+    "id": "validating-dealer-search-functionality",
+    "keyword": "Feature",
+    "uri": "Dealersearch.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Dealersearch"
+      }
+    ]
+  }
+]
