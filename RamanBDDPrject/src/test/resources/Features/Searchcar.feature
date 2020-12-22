@@ -2,7 +2,7 @@
 Feature: Validating search cars functionality 
 
 @Search-Cars-Positive 
-Scenario: validate car search page 
+Scenario: validate cars search page 
 	Given Iam on the home page "https://www.carsguide.com.au/" 
 	When I move to menu 
 		| menu|
