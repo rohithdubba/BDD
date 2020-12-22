@@ -125,7 +125,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 12015815234,
+  "duration": 5949817319,
   "status": "passed"
 });
 formatter.scenario({
@@ -229,14 +229,14 @@ formatter.match({
   "location": "SearchCarsStep.iam_on_the_home_page(String)"
 });
 formatter.result({
-  "duration": 11532813358,
+  "duration": 10071841856,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCarsStep.i_move_to_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 951111650,
+  "duration": 979334875,
   "status": "passed"
 });
 formatter.match({
@@ -249,7 +249,7 @@ formatter.match({
   "location": "Dealer_SearchStep.i_click_on_finddealer_link(String)"
 });
 formatter.result({
-  "duration": 4739332102,
+  "duration": 5445794924,
   "status": "passed"
 });
 formatter.match({
@@ -262,7 +262,7 @@ formatter.match({
   "location": "Dealer_SearchStep.select_brand_from_Any_make_dropdown_of_dealer_page(String)"
 });
 formatter.result({
-  "duration": 718072493,
+  "duration": 571441076,
   "status": "passed"
 });
 formatter.match({
@@ -275,7 +275,7 @@ formatter.match({
   "location": "Dealer_SearchStep.select_model_from_Any_model_dropdown_of_dealer_page(String)"
 });
 formatter.result({
-  "duration": 940335148,
+  "duration": 437197793,
   "status": "passed"
 });
 formatter.match({
@@ -288,21 +288,21 @@ formatter.match({
   "location": "Dealer_SearchStep.select_location_from_Any_location_dropdown_of_dealer_page(String)"
 });
 formatter.result({
-  "duration": 577013508,
+  "duration": 267242888,
   "status": "passed"
 });
 formatter.match({
   "location": "Dealer_SearchStep.i_click_on_find_dealers()"
 });
 formatter.result({
-  "duration": 3866307437,
+  "duration": 2580218942,
   "status": "passed"
 });
 formatter.match({
   "location": "Dealer_SearchStep.i_should_see_the_dealers()"
 });
 formatter.result({
-  "duration": 97257,
+  "duration": 74563,
   "status": "passed"
 });
 formatter.match({
@@ -315,15 +315,15 @@ formatter.match({
   "location": "Dealer_SearchStep.the_dealer_page_title_should_match_the_expected_title(String)"
 });
 formatter.result({
-  "duration": 19096448,
+  "duration": 229563429,
   "status": "passed"
 });
 formatter.after({
-  "duration": 982128181,
+  "duration": 872064657,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4038342429,
+  "duration": 3915246036,
   "status": "passed"
 });
 formatter.scenario({
@@ -427,14 +427,14 @@ formatter.match({
   "location": "SearchCarsStep.iam_on_the_home_page(String)"
 });
 formatter.result({
-  "duration": 11855558086,
+  "duration": 8219811369,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCarsStep.i_move_to_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 721301836,
+  "duration": 550796213,
   "status": "passed"
 });
 formatter.match({
@@ -447,7 +447,7 @@ formatter.match({
   "location": "Dealer_SearchStep.i_click_on_finddealer_link(String)"
 });
 formatter.result({
-  "duration": 5331486933,
+  "duration": 4029174724,
   "status": "passed"
 });
 formatter.match({
@@ -460,7 +460,7 @@ formatter.match({
   "location": "Dealer_SearchStep.select_brand_from_Any_make_dropdown_of_dealer_page(String)"
 });
 formatter.result({
-  "duration": 975206713,
+  "duration": 558394430,
   "status": "passed"
 });
 formatter.match({
@@ -473,7 +473,7 @@ formatter.match({
   "location": "Dealer_SearchStep.select_model_from_Any_model_dropdown_of_dealer_page(String)"
 });
 formatter.result({
-  "duration": 540925418,
+  "duration": 471517828,
   "status": "passed"
 });
 formatter.match({
@@ -486,21 +486,21 @@ formatter.match({
   "location": "Dealer_SearchStep.select_location_from_Any_location_dropdown_of_dealer_page(String)"
 });
 formatter.result({
-  "duration": 386309187,
+  "duration": 239545663,
   "status": "passed"
 });
 formatter.match({
   "location": "Dealer_SearchStep.i_click_on_find_dealers()"
 });
 formatter.result({
-  "duration": 3817588476,
+  "duration": 2513790258,
   "status": "passed"
 });
 formatter.match({
   "location": "Dealer_SearchStep.i_should_see_the_dealers()"
 });
 formatter.result({
-  "duration": 275157,
+  "duration": 55112,
   "status": "passed"
 });
 formatter.match({
@@ -513,11 +513,11 @@ formatter.match({
   "location": "Dealer_SearchStep.the_dealer_page_title_should_match_the_expected_title(String)"
 });
 formatter.result({
-  "duration": 157444794,
+  "duration": 142774764,
   "status": "passed"
 });
 formatter.after({
-  "duration": 901174542,
+  "duration": 831652675,
   "status": "passed"
 });
 });
